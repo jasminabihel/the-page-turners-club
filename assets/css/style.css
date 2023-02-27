@@ -8,8 +8,8 @@ body {
  /* heading and menu */
 
  #intro {
-    margin: 20px 10px 20px 10px;
-    padding:  1px 2px 1px 2px;
+    margin: 30px 5px 40px 5px;
+    padding:  2px 3px 2px 3px;
     white-space: nowrap;
     border-bottom: 3px solid #71a5cc;
   }
@@ -47,4 +47,13 @@ ul {
 #menu a:hover {
     background-color:#ECEEF1;
 	color:#546072;
+}
+
+h2 {
+    text-align:center;
+    margin: 30px 10px 30px 10px;
+    padding: 2px 3px 2px 3px;
+    font-size: 140%;
+    background-color: aquamarine;
+    border: 5px solid black;
 }
