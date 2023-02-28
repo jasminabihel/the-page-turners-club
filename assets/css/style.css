@@ -7,7 +7,7 @@ body {
 }
  /* heading and menu */
 
- #intro {
+ #title {
     margin: 30px 5px 40px 5px;
     padding:  2px 3px 2px 3px;
     white-space: nowrap;
@@ -50,10 +50,40 @@ ul {
 }
 
 h2 {
+    color:#5d7f99;
     text-align:center;
     margin: 30px 10px 30px 10px;
     padding: 2px 3px 2px 3px;
     font-size: 140%;
-    background-color: aquamarine;
-    border: 5px solid black;
+}
+#intro {
+    margin:30px 20px 40px 20px;
+}
+#intro p {
+    font-size: 100%;
+    color:#4e535e; 
+    text-align: center;
+    width: 200;
+    height: 300;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 40px;
+}
+#text-right {
+    font-size: 120%;
+    font-weight: 500;
+    text-align: left;
+    color:#657389
+}
+footer {
+    border-top: 2px solid#71a5cc;
+    display:block;
+    
 }
