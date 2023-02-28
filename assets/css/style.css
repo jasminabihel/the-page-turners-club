@@ -48,7 +48,12 @@ ul {
     background-color:#ECEEF1;
 	color:#546072;
 }
-
+.active {
+    background-color:#ECEEF1;
+	color:#424f62;
+    text-decoration: underline;
+}
+/*front page and footer */
 h2 {
     color:#5d7f99;
     text-align:center;
@@ -87,5 +92,6 @@ footer {
     margin: 10px 20px 10px 20px;
     font-weight: 600;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    color: #7F8C9F;
 }
