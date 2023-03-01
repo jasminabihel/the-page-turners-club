@@ -45,17 +45,17 @@ ul {
     color:#657389;
 }
 #menu a:hover {
-    background-color:#ECEEF1;
+    background-color:#96999e;
 	color:#546072;
+    text-decoration: underline;
 }
 .active {
     background-color:#ECEEF1;
 	color:#424f62;
-    text-decoration: underline;
 }
 /*front page and footer */
 h2 {
-    color:#5d7f99;
+    color:#516189;;
     text-align:center;
     margin: 30px 10px 30px 10px;
     padding: 2px 3px 2px 3px;
@@ -65,11 +65,10 @@ h2 {
     margin:30px 20px 40px 20px;
 }
 #intro p {
-    font-size: 100%;
-    color:#4e535e; 
+    font-size: 90%;
+    color:#516189; 
     text-align: center;
-    width: 200;
-    height: 300;
+    
 }
 .container {
     display: flex;
@@ -82,10 +81,12 @@ h2 {
     margin-left: 40px;
 }
 #text-right {
-    font-size: 120%;
+    font-size: 110%;
     font-weight: 500;
-    text-align: left;
-    color:#657389
+    text-align: center;
+    color:#657389;
+    width: 200;
+    height: 300;
 }
 footer {
     border: 2px solid#71a5cc;
