@@ -32,9 +32,12 @@
         <h3 id="signup">Sign up now and let the reading adventures begin!</h3>
         <form action="https://formdump.codeinstitute.net/" method="post" class="sign-form">
             <div>
-                <label for="name" id="fullname">Name</label>
-                <input type="text" name="name" value="firstname" placeholder="Anna" reguired>
-                <input type="text" name="name" value="lastname" placholder="Andersson">
+                <label for="fname" id="fullname">First Name</label>
+                <input type="text" name="fname" value="firstname" placeholder="Anna" reguired>
+            </div>
+            <div>
+                <label for="fname" id="fullname">Last Name</label>
+                <input type="text" name="lname" value="lastname" placholder="Andersson">
             </div>
             <div>
                 <label for="email" id="email">Email</label>
@@ -45,14 +48,18 @@
                 <input type="password" name="password" value="password" reguired>
             </div>
             <div id="button">
-                <input type="submit" value="Sign up" id="button">
+                <input type="submit" value="Sign up for literary adventures!" id="button">
             </div>
         </form>
         <div id="newsletter">
             <form>
-                <p>Not ready to sign up yet</p>
-                <label for="email">Join our newsletter!</label>
-                <input type="email" name="emailaddress" value="email" placeholder required>
+                <p>If you're not ready to join our bookclub yet, sign up for our newsletter.</p>
+                <label for="email"></label>
+                <input type="email" name="emailaddress" value="write your email here" placeholder="write your email here"required>
+            <div>
+                <input type="submit" value="Newsletter">
+            </div>
+                
             </form>
         </div>
     </section>
