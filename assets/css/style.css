@@ -127,3 +127,49 @@ footer {
     color:#4e535e;
     text-decoration: underline;
 }
+/* contact */
+
+#signup {
+    border:violet solid 6px;
+    text-align: center;
+    text-transform: capitalize;
+    color:#496377;
+    font-size:130%;
+    font-weight: 600;
+}
+.sign-form {
+    border:green solid 2px;
+    text-align:center;
+    color:#516189;
+    font-weight: 700;
+}
+input[type=text]{
+    margin: 4px;
+    margin-right: 5px;
+    padding:10px 10px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+}
+input[type=email] {
+    margin-right: 188px;
+    margin-bottom: 5px;
+    padding:10px 10px;
+    border: 1px solid black;
+}
+input[type=password] {
+    margin-right: 223px;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+#button {
+    margin: 20px 30px 20px 30px;
+    font-size: 120%;
+    font-weight:700;
+    text-transform: capitalize;
+    color:#546072;
+}
+#newsletter {
+    border:red 6px solid;
+    text-align:center;
+    width: 400px;
+}

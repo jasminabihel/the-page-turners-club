@@ -20,24 +20,41 @@
                 <a href="index.html">About us</a>
             </li>
             <li>
-                <a href="/readinglist.html">Reading list</a>
+                <a href="readinglist.html">Reading list</a>
             </li>
             <li>
-                <a href="/contact.html" class="active">Contact</a>
+                <a href="contact.html" class="active">Contact</a>
             </li>
         </ul>
         </nav>
     </header>
     <section>
-        <p>Meetings</p>
-        <p>Join our newsletter!</p>
-        <form>
-            <input type="email" name="emailaddress" value="email" placeholder required>
+        <h3 id="signup">Sign up now and let the reading adventures begin!</h3>
+        <form action="https://formdump.codeinstitute.net/" method="post" class="sign-form">
+            <div>
+                <label for="name" id="fullname">Name</label>
+                <input type="text" name="name" value="firstname" placeholder="Anna" reguired>
+                <input type="text" name="name" value="lastname" placholder="Andersson">
+            </div>
+            <div>
+                <label for="email" id="email">Email</label>
+                <input type="email" name="email" value="email" reguired placeholder>
+            </div>
+            <div>
+                <label for="password" id="password">Password</label>
+                <input type="password" name="password" value="password" reguired>
+            </div>
+            <div id="button">
+                <input type="submit" value="Sign up" id="button">
+            </div>
         </form>
-        <form>
-            <p>Feedback</p>
-            <textarea></textarea>
-        </form>
+        <div id="newsletter">
+            <form>
+                <p>Not ready to sign up yet</p>
+                <label for="email">Join our newsletter!</label>
+                <input type="email" name="emailaddress" value="email" placeholder required>
+            </form>
+        </div>
     </section>
     <footer>
         <copyright> &copy;ThePageTurners 2023</copyright>
